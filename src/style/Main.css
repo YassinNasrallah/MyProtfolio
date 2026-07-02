@@ -17,6 +17,9 @@ a {
 
 .main-container {
   width: min(1100px, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
 

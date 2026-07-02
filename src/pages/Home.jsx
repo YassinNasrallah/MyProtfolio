@@ -6,7 +6,7 @@ import Aboutcontent from '../components/about/Aboutcontent'
 
 const Home = () => {
   return (
-    <div className='home-section'>
+    <div className='main-container'>
         <Navigation />
         <Herocontent />
         <Aboutcontent />

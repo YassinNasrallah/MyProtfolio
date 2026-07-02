@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../../assest/profile.jfif'
+import profile from '../../assest/profile.jfif'
 
 
 

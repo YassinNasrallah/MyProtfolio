@@ -6,7 +6,7 @@ import '../style/Main.css'
 
 const Home = () => {
   return (
-    <div className='home-section'>
+    <div className='main-container'>
         <Navigation />
         <Herocontent />
         <Aboutcontent />

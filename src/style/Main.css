@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -13,12 +15,12 @@ body {
 
 
 .main-container {
-  width: min(1100px, 90%);
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: auto;
+  
 }
 
 
@@ -27,7 +29,7 @@ body {
   height: 80px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 20px;
 }
@@ -93,13 +95,13 @@ body {
 .about-section p {
   color: #64748b;
   line-height: 1.9;
-  font-size: 1.05rem;
+  font-size: 1.5rem;
 }
+
 .projects-section {
   display: flex;
-  margin: 0 50px;
-  gap: 30px;
-  align-items: stretch;
+  flex-direction: column;
+  width: 100%;
 }
 
 .left-side,
@@ -109,27 +111,25 @@ body {
 
 .left-side img {
   width: 100%;
-  height: 100%;
+  height: 70%;
   object-fit: cover;
   display: block;
-  border-radius: 12px;
+  
 }
 
 .right-side {
-  background: #2563eb;
-  color: white;
+  background: white;
   padding: 40px;
-  border-radius: 12px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .right-side h2 {
   font-size: 2.3rem;
   margin-bottom: 25px;
-  color: #fff;
+  color: #2563eb;
 }
 
 .right-side ul {
@@ -140,20 +140,20 @@ body {
 .right-side li {
   font-size: 1.1rem;
   margin-bottom: 15px;
-  color: #dbeafe;
+  color: #64748b;
 }
 
 .right-side li::before {
   content: "✓";
-  color: #fff;
+  color: #2563eb;
   margin-right: 10px;
   font-weight: bold;
 }
 
 .right-side a {
+  text-decoration: none;
   width: fit-content;
   padding: 14px 28px;
-  background: white;
   color: #2563eb;
   border-radius: 8px;
   font-weight: 600;
@@ -161,6 +161,6 @@ body {
 }
 
 .right-side a:hover {
-  background: #eff6ff;
+ 
   transform: translateY(-2px);
 }

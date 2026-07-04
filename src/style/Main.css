@@ -95,37 +95,35 @@ body {
   line-height: 1.9;
   font-size: 1.05rem;
 }
+.left-side{
+  display: flex;
+  flex: 1;
+}
+.left-side img{
+   width:400px ;
+   object-fit: cover;
+}
 
+.righ-side{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  background: #2563eb;
+}
 
+.righ-side h1{
+  color: #0f172a;
+}
 
+.righ-side li{
+  list-style: none;
+  font-size: 16px;
+  color: #64748b;
+  font-weight: 500;
+}
 
-/* ================= Responsive ================= */
-
-@media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    height: auto;
-    padding: 25px 0;
-  }
-
-  .nav-container ul {
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .hero-section {
-    min-height: 70vh;
-    text-align: center;
-  }
-
-  .hero-section h1 {
-    font-size: clamp(2.2rem, 8vw, 3.5rem);
-  }
-
-  .about-section {
-    text-align: center;
-  }
+.projects-section{
+  margin: 0 50px;
+  display: flex;
 }

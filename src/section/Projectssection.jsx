@@ -1,11 +1,10 @@
 import React from 'react'
-import Leftside from '../components/project/Leftside'
 import Rightside from '../components/project/Rightside'
-
+import Projectimage from '../components/project/Projectimage'
 const Projectssection = () => {
   return (
     <div className='projects-section'>
-       <Leftside />
+       <Projectimage />
        <Rightside />
     </div>
   )

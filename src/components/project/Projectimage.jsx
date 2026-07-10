@@ -3,7 +3,7 @@ import projectimage from '../../assest/projectimage.png'
 const Projectimage = () => {
   return (
     <div className='left-side'>
-      <img} alt="" />
+      <img src={projectimage} alt="" />
     </div>
   )
 }

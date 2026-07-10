@@ -1,11 +1,11 @@
 import React from 'react'
-import 
-const Leftside = () => {
+import projectimage from '../../assest/projectimage.png'
+const Projectimage = () => {
   return (
     <div className='left-side'>
-      <img src={leftsideimage} alt="" />
+      <img} alt="" />
     </div>
   )
 }
 
-export default Leftside
+export default Projectimage

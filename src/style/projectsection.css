@@ -31,19 +31,20 @@
 .project-highlights{
     display:flex;
     flex-direction:column;
-    gap:50px;
+    
+    gap:30px;
 }
 
 .highlight{
     display:flex;
     flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 
 .highlight h3{
-    background:#2563eb;
-    color:white;
-    padding:12px 20px;
-    border-radius:8px;
+    
+    color:#2563eb;
     margin-bottom:20px;
     font-size:1.4rem;
     width:fit-content;
@@ -53,7 +54,7 @@
     font-size:1.05rem;
     color:#4b5563;
     margin-bottom:20px;
-    text-align:justify;
+    text-align:center;
 }
 
 .About-project img,
@@ -68,30 +69,4 @@
     box-shadow:0 8px 25px rgba(0,0,0,.08);
 }
 
-.tech-stack{
-    margin-top:60px;
-}
 
-.tech-stack h2{
-    background:#2563eb;
-    color:#fff;
-    display:inline-block;
-    padding:10px 20px;
-    border-radius:8px;
-    margin-bottom:20px;
-}
-
-.tech-list{
-    display:flex;
-    flex-wrap:wrap;
-    gap:12px;
-}
-
-.tech-list span{
-    padding:8px 16px;
-    background:#eff6ff;
-    color:#2563eb;
-    border-radius:20px;
-    border:1px solid #bfdbfe;
-    font-weight:500;
-}

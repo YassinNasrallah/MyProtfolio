@@ -97,14 +97,6 @@ body {
   line-height: 1.9;
   font-size: 1.5rem;
 }
-.left-side{
-  display: flex;
-  flex: 1;
-}
-.left-side img{
-   width:400px ;
-   object-fit: cover;
-}
 
 
 .projects-section {
@@ -114,16 +106,13 @@ body {
   width: 90%;
 }
 
-.left-side,
-.right-side{
-  flex: 1;
-}
 .left-side{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .left-side img {
+  
   width: 100%;
   max-width: 600px;
   object-fit: cover;
@@ -175,7 +164,4 @@ body {
 .right-side a:hover {
  
   transform: translateY(-2px);
-
 }
-
-

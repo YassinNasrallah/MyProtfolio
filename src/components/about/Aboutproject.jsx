@@ -3,8 +3,10 @@ import Json from '../../assest/json.png'
 import projectimage from '../../assest/projectimage.png'
 import playerscript from '../../assest/playerscript.png'
 import tilemap from '../../assest/tilemap.png'
-
+import enemy from '../../assest/enemy.png'
 const Aboutproject = () => {
+
+
   return (
     <section className='About-project'>
       <span className='project-tag'>Game Development</span>
@@ -46,15 +48,10 @@ const Aboutproject = () => {
             Implemented enemy detection, movement, and combat behavior
             using Godot's physics and Area2D nodes.
           </p>
+          <img src={enemy} alt="" />
         </div>
 
-        <div className='highlight'>
-          <h3>Game Architecture</h3>
-          <p>
-            Organized the project into reusable scenes, scripts, and
-            components to keep the code clean and scalable.
-          </p>
-        </div>
+        
 
         <div className='highlight'>
           <h3>Player Controller</h3>
@@ -76,18 +73,6 @@ const Aboutproject = () => {
         </div>
       </div>
 
-      <div className='tech-stack'>
-        <h2>Technologies</h2>
-
-        <div className='tech-list'>
-          <span>Godot 4</span>
-          <span>GDScript</span>
-          <span>JSON</span>
-          <span>TileMap</span>
-          <span>Git & GitHub</span>
-          <span>Aseprite</span>
-        </div>
-      </div>
     </section>
   )
 }

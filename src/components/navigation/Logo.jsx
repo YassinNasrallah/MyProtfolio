@@ -1,9 +1,12 @@
 import React from 'react'
+import profile from '../../assest/profile.jfif'
+
+
 
 const Logo = () => {
   return (
-    <div>
-       <h1>Yassin</h1>
+    <div className='logo'>
+       <img src={profile} alt="" />
     </div>
   )
 }

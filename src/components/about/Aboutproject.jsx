@@ -1,4 +1,8 @@
 import React from 'react'
+import Json from '../../assest/json.png'
+import projectimage from '../../assest/projectimage.png'
+import playerscript from '../../assest/playerscript.png'
+import tilemap from '../../assest/tilemap.png'
 
 const Aboutproject = () => {
   return (
@@ -6,6 +10,8 @@ const Aboutproject = () => {
       <span className='project-tag'>Game Development</span>
 
       <h1>Building a 2D Pixel RPG in Godot</h1>
+
+      <img src={projectimage} alt="" />
 
       <p className='project-description'>
         This is my personal game development project where I design and
@@ -21,6 +27,9 @@ const Aboutproject = () => {
             Built a reusable JSON-based dialogue system that allows NPCs
             to display conversations without hardcoding text into scripts.
           </p>
+
+          <img src={Json} alt="" />
+          <img src="" alt="" />
         </div>
 
         <div className='highlight'>
@@ -53,6 +62,8 @@ const Aboutproject = () => {
             Developed a smooth movement system with animations,
             collision handling, and responsive player controls.
           </p>
+
+          <img src={playerscript} alt="" />
         </div>
 
         <div className='highlight'>

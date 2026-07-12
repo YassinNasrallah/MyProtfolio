@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from  'react-router-dom'
 
 const Rightside = () => {
   return (
@@ -12,9 +13,9 @@ const Rightside = () => {
     <li> Published on itch.io</li>
   </ul>
 
-  <a href="https://your-game.itch.io" target="_blank" rel="noopener noreferrer">
-    View Project →
-  </a>
+  <Link to="project-highlights">
+      learn more
+   </Link>
 </div>
   )
 }

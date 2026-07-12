@@ -3,7 +3,7 @@ import Navigation from '../components/navigation/Navigation'
 import Herocontent from '../components/Hero/Herocontent'
 import Aboutcontent from '../components/about/Aboutcontent'
 import '../style/Main.css'
-import Projectssection from '../section/Projectssection'
+import Projectssection from '../section/Projectssection.jsx'
 
 const Home = () => {
   return (

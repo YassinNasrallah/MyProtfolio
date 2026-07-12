@@ -97,10 +97,21 @@ body {
   line-height: 1.9;
   font-size: 1.5rem;
 }
+.left-side{
+  display: flex;
+  flex: 1;
+}
+.left-side img{
+   width:400px ;
+   object-fit: cover;
+}
+
 
 .projects-section {
   display: flex;
-  width: 100%;
+  justify-content: space-around;
+  
+  width: 90%;
 }
 
 .left-side,
@@ -164,4 +175,7 @@ body {
 .right-side a:hover {
  
   transform: translateY(-2px);
+
 }
+
+

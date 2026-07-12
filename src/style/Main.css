@@ -100,11 +100,13 @@ body {
 
 .projects-section {
   display: flex;
-  flex-direction: column;
   width: 100%;
 }
 
-
+.left-side,
+.right-side{
+  flex: 1;
+}
 .left-side{
   display: flex;
   justify-content: space-around;
@@ -112,7 +114,7 @@ body {
 }
 .left-side img {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   object-fit: cover;
   display: block;
   
@@ -139,7 +141,7 @@ body {
 
 .right-side li {
   font-size: 1.1rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #64748b;
 }
 
@@ -153,7 +155,6 @@ body {
 .right-side a {
   text-decoration: none;
   width: fit-content;
-  padding: 14px 28px;
   color: #2563eb;
   border-radius: 8px;
   font-weight: 600;

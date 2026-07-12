@@ -105,8 +105,12 @@ body {
 }
 
 
-
-.projetimage img {
+.left-side{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-side img {
   width: 100%;
   max-width: 500px;
   object-fit: cover;
@@ -115,7 +119,6 @@ body {
 }
 
 .right-side {
-  background: white;
   padding: 40px;
   display: flex;
   flex-direction: column;

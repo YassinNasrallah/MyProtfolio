@@ -39,14 +39,14 @@ body {
   gap: 2rem;
   list-style: none;
 }
-
+.nav-container a,
 .nav-container li {
   cursor: pointer;
   color: #475569;
   transition: color 0.3s ease;
   font-weight: 500;
 }
-
+.nav-container a,
 .nav-container li:hover {
   color: #2563eb;
 }

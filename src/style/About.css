@@ -1,0 +1,23 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.about-container h2{
+    font-size: clamp(2.8rem, 6vw, 5rem);
+  line-height: 1.1;
+  font-weight: 700;
+  max-width: 900px;
+  color: #0f172a;
+}
+
+.about-container li{
+    text-decoration: none;
+  cursor: pointer;
+  color: #475569;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}

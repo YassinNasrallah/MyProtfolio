@@ -1,4 +1,4 @@
-.about-section{
+.aboutme-section{
     min-height: 100vh;
     max-width: 800px;
     margin: 5rem auto;
@@ -11,14 +11,14 @@
     justify-content: center;
 }
 
-.about-section h2{
+.aboutme-section h2{
     font-size: 2rem;
     font-weight: 700;
     color: #111827;
     margin-bottom: 1rem;
 }
 
-.about-section p{
+.aboutme-section p{
     color: #4b5563;
     font-size: 1.05rem;
     line-height: 1.9;
@@ -36,7 +36,7 @@
 
 .skills ul{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: .8rem;
     list-style: none;
     padding: 0;

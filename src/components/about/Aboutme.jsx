@@ -3,7 +3,7 @@ import React from 'react'
 const Aboutme = () => {
   return (
     <div className='about-section'>
-       <h2>Hllo,</h2>
+       <h2>Hello,</h2>
 
        <p>
        I'm Yassin Nasrallah, a junior Front-End Developer,

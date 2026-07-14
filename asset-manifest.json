@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MyProtfolio/static/css/main.1a2b41b1.css",
+    "main.js": "/MyProtfolio/static/js/main.cfafdd0f.js",
+    "static/js/453.4f429273.chunk.js": "/MyProtfolio/static/js/453.4f429273.chunk.js",
+    "static/media/enemy.png": "/MyProtfolio/static/media/enemy.2ded4bfa697921c4b55f.png",
+    "static/media/projectsetting.png": "/MyProtfolio/static/media/projectsetting.75aa3b62730010929583.png",
+    "static/media/tilemap.png": "/MyProtfolio/static/media/tilemap.6c0570829f12ac217777.png",
+    "static/media/playerscript.png": "/MyProtfolio/static/media/playerscript.983ce68c261d976f8252.png",
+    "static/media/projectimage.png": "/MyProtfolio/static/media/projectimage.3c9d37580a52f7e0b0d0.png",
+    "static/media/profile.jfif": "/MyProtfolio/static/media/profile.8b5b29a7b66b6d259280.jfif",
+    "static/media/json.png": "/MyProtfolio/static/media/json.08d776ce83146d3a3df4.png",
+    "index.html": "/MyProtfolio/index.html",
+    "main.1a2b41b1.css.map": "/MyProtfolio/static/css/main.1a2b41b1.css.map",
+    "main.cfafdd0f.js.map": "/MyProtfolio/static/js/main.cfafdd0f.js.map",
+    "453.4f429273.chunk.js.map": "/MyProtfolio/static/js/453.4f429273.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a2b41b1.css",
+    "static/js/main.cfafdd0f.js"
+  ]
+}

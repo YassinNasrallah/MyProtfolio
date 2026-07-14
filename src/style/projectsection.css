@@ -70,3 +70,152 @@
 }
 
 
+/* ========================= */
+/* Large Screens */
+/* ========================= */
+@media (min-width:1200px){
+
+    .About-project{
+        max-width:1100px;
+        padding:40px;
+    }
+
+    .About-project h1{
+        font-size:2.8rem;
+    }
+
+    .project-description{
+        font-size:1.2rem;
+    }
+
+    .highlight img{
+        max-width:850px;
+    }
+
+}
+
+
+/* ========================= */
+/* Medium Screens */
+/* ========================= */
+@media (max-width:992px){
+
+    .About-project{
+        width:90%;
+        margin:60px auto;
+        padding:20px;
+    }
+
+    .About-project h1{
+        font-size:2rem;
+        text-align:center;
+    }
+
+    .project-description{
+        text-align:center;
+        font-size:1rem;
+    }
+
+    .highlight h3{
+        text-align:center;
+        font-size:1.3rem;
+    }
+
+    .highlight p{
+        font-size:1rem;
+    }
+
+    .highlight img{
+        max-width:100%;
+    }
+
+}
+
+
+/* ========================= */
+/* Tablets */
+/* ========================= */
+@media (max-width:768px){
+
+    .About-project{
+        width:92%;
+        margin:50px auto;
+        padding:15px;
+    }
+
+    .project-tag{
+        display:block;
+        width:fit-content;
+        margin:0 auto 25px;
+        text-align:center;
+    }
+
+    .About-project h1{
+        font-size:1.8rem;
+        text-align:center;
+    }
+
+    .project-description{
+        text-align:center;
+        font-size:1rem;
+        margin-bottom:30px;
+    }
+
+    .project-highlights{
+        gap:40px;
+    }
+
+    .highlight h3{
+        font-size:1.2rem;
+    }
+
+    .highlight p{
+        font-size:.95rem;
+        line-height:1.8;
+    }
+
+    .highlight img{
+        border-radius:12px;
+    }
+
+}
+
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+@media (max-width:480px){
+
+    .About-project{
+        width:95%;
+        padding:10px;
+        margin:40px auto;
+    }
+
+    .project-tag{
+        font-size:.85rem;
+        padding:7px 15px;
+    }
+
+    .About-project h1{
+        font-size:1.6rem;
+    }
+
+    .project-description{
+        font-size:.95rem;
+    }
+
+    .highlight h3{
+        font-size:1.1rem;
+    }
+
+    .highlight p{
+        font-size:.9rem;
+    }
+
+    .highlight img{
+        margin:15px auto;
+        border-radius:10px;
+    }
+
+}

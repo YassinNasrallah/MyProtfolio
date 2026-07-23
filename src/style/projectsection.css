@@ -4,28 +4,37 @@
     padding:20px;
     font-family:'Inter',sans-serif;
     line-height:1.8;
-    color:#374151;
+    color:#4b5049;
 }
 
 .project-tag{
     display:inline-block;
-    background:#2563eb;
-    color:#fff;
+    background:#d9a441;
+    color:#10130f;
     padding:8px 18px;
-    border-radius:30px;
-    font-weight:600;
+    border-radius:0;
+    border:2px solid #10130f;
+    font-family:'JetBrains Mono',monospace;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:.85rem;
+    box-shadow:4px 4px 0 #10130f;
     margin-bottom:20px;
 }
 
 .About-project h1{
+    font-family:'Fraunces',serif;
+    font-weight:600;
     font-size:2.3rem;
-    color:#1e3a8a;
+    color:#10130f;
     margin-bottom:30px;
 }
 
 .project-description{
     font-size:1.1rem;
     margin-bottom:40px;
+    border-left:3px solid #e0483e;
+    padding-left:24px;
 }
 
 .project-highlights{
@@ -43,8 +52,9 @@
 }
 
 .highlight h3{
-    
-    color:#2563eb;
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    color:#10130f;
     margin-bottom:20px;
     font-size:1.4rem;
     width:fit-content;
@@ -52,7 +62,7 @@
 
 .highlight p{
     font-size:1.05rem;
-    color:#4b5563;
+    color:#4b5049;
     margin-bottom:20px;
     text-align:center;
 }
@@ -64,9 +74,17 @@
     height:auto;
     margin:20px auto;
     display:block;
-    border-radius:10px;
-    border:1px solid #d1d5db;
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    border-radius:0;
+    border:2px solid #10130f;
+    box-shadow:10px 10px 0 #10130f;
+    transition:transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.About-project img:hover,
+.highlight img:hover{
+    transform:translate(-4px,-4px);
+    border-color:#e0483e;
+    box-shadow:14px 14px 0 #e0483e;
 }
 
 
@@ -114,6 +132,10 @@
     .project-description{
         text-align:center;
         font-size:1rem;
+        border-left:none;
+        border-top:3px solid #e0483e;
+        padding-left:0;
+        padding-top:20px;
     }
 
     .highlight h3{
@@ -127,6 +149,7 @@
 
     .highlight img{
         max-width:100%;
+        box-shadow:6px 6px 0 #10130f;
     }
 
 }
@@ -175,7 +198,8 @@
     }
 
     .highlight img{
-        border-radius:12px;
+        border-radius:0;
+        box-shadow:5px 5px 0 #10130f;
     }
 
 }
@@ -193,8 +217,9 @@
     }
 
     .project-tag{
-        font-size:.85rem;
-        padding:7px 15px;
+        font-size:.8rem;
+        padding:6px 14px;
+        box-shadow:3px 3px 0 #10130f;
     }
 
     .About-project h1{
@@ -215,7 +240,7 @@
 
     .highlight img{
         margin:15px auto;
-        border-radius:10px;
+        box-shadow:4px 4px 0 #10130f;
     }
 
 }

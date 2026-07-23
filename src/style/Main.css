@@ -42,11 +42,12 @@ body {
   height: 80px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   border-bottom: 2px solid var(--border);
   background: var(--bg-panel);
+  padding: 0px 80px;
 }
 
 .nav-container ul {
@@ -253,8 +254,6 @@ body {
 @media (min-width: 1200px) {
   .main-container {
     max-width: 1400px;
-    margin: auto;
-    padding: 0 50px;
   }
 
   .hero-section h1 {
